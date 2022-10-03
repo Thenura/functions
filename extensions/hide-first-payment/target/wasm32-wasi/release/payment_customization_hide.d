@@ -1,0 +1,1 @@
+/Users/thenura/src/github.com/Shopify/basic-delivery-customization/extensions/hide-first-payment/target/wasm32-wasi/release/payment_customization_hide.wasm: /Users/thenura/src/github.com/Shopify/basic-delivery-customization/extensions/hide-first-payment/src/api.rs /Users/thenura/src/github.com/Shopify/basic-delivery-customization/extensions/hide-first-payment/src/main.rs

@@ -1,0 +1,11 @@
+name = "rename-first-delivery-customization"
+type = "delivery_customization"
+api_version = "unstable"
+
+[build]
+command = "cargo wasi build --release"
+path = "target/wasm32-wasi/release/rename-first-delivery-customization.wasm"
+
+[ui.paths]
+create = "/"
+details = "/"

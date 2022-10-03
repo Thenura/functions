@@ -1,0 +1,12 @@
+{
+    "deliveryOptions": [
+      {
+        "id": "some/gid",
+        "name": "Standard"
+      },
+      {
+        "id": "some/other-gid",
+        "name": "Express"
+      }
+    ]
+  }
