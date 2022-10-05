@@ -20,7 +20,7 @@ fn function(_input: Input) -> Result<FunctionResult, Box<dyn std::error::Error>>
             Some(Operation {
                 rename:Some(RenameOperation {
                     delivery_option_id: delivery_option.id.clone(),
-                    name: "Rename Function".to_string(),
+                    title: "Rename Function".to_string(),
                 })
             })
         })
@@ -39,11 +39,11 @@ mod tests {
             delivery_options: vec![
                 DeliveryOption {
                     id: "1".to_string(),
-                    name: "Standard".to_string()
+                    title: "Standard".to_string()
                 },
                 DeliveryOption {
                     id: "2".to_string(),
-                    name: "Express".to_string()
+                    title: "Express".to_string()
                 }
             ],
         };

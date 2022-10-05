@@ -12,7 +12,7 @@ pub struct Input {
 #[serde(rename_all = "camelCase")]
 pub struct DeliveryOption {
     pub id: ID,
-    pub name: String,
+    pub title: String,
 }
 
 #[derive(Clone, Debug, Serialize)]

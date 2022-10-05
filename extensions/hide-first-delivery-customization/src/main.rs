@@ -14,11 +14,11 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 fn function(_input: Input) -> Result<FunctionResult, Box<dyn std::error::Error>> {
     let delivery_options = _input.delivery_options;
 
-    let name_to_hide = delivery_options[0].name.clone();
+    let name_to_hide = delivery_options[0].title.clone();
     let operations = delivery_options
         .iter()
         .filter_map(|delivery_option| {
-            if delivery_option.name == name_to_hide {
+            if delivery_option.title == name_to_hide {
                 Some(Operation {
                     hide:Some(HideOperation {
                         delivery_option_id: delivery_option.id.clone(),
@@ -43,11 +43,11 @@ mod tests {
             delivery_options: vec![
                 DeliveryOption {
                     id: "1".to_string(),
-                    name: "Standard".to_string()
+                    title: "Standard".to_string()
                 },
                 DeliveryOption {
                     id: "2".to_string(),
-                    name: "Express".to_string()
+                    title: "Express".to_string()
                 }
             ],
         };

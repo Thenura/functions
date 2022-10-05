@@ -2,11 +2,11 @@
     "deliveryOptions": [
       {
         "id": "some/gid",
-        "name": "Standard"
+        "title": "Standard"
       },
       {
         "id": "some/other-gid",
-        "name": "Express"
+        "title": "Express"
       }
     ]
   }
